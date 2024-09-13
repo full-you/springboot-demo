@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<!-- キャメルケース自動マッピング -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+
+	<!-- mapperファイルの配置場所 -->
+	<mappers>
+		<mapper resource="mybatis/mapper/PersonMapper.xml" />
+	</mappers>
+</configuration>
